@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    gap: 25px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-title {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.userName {
+    font-size: 20px;
+}
+
+.side {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.532);
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.search {
+    position: relative;
+}
+
+.search-input {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.238);
+    padding: 10px 10px;
+    width: 400px;
+    outline: 0;
+}
+.search-btn {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    border-radius: 8px;
+    padding: 10px 15px 11px 25px;
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+    transition: 0.3s;
+}
+.search-btn:hover {
+    background-color: #391588;
+}
+
+.option {
+    display: flex;
+    gap: 20px;
+}
+
+.option-btn {
+    padding: 8px 12px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.38);
+}
