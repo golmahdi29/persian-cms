@@ -1,0 +1,41 @@
+.modal-parent {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.652);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.modal-parent.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.edit-modal-form {
+    background-color: var(--white);
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.edit-modal-title {
+    font-size: 25px;
+}
+
+.edit-form-submit {
+    padding: 18px 20px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+}
